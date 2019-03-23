@@ -1,12 +1,11 @@
-name: thinkdsp
-channels:
-- defaults
-- conda-forge
+name: ThinkDSP
+
 dependencies:
-- python=3.*
-- matplotlib
-- numpy
-- jupyter
-- ipykernel
-- scipy
-- pandas
+  - python=3.7
+  - jupyter
+  - numpy
+  - matplotlib
+  - seaborn
+  - pandas
+  - scipy
+
